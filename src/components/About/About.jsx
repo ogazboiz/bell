@@ -15,12 +15,14 @@ class About extends Component {
       <section className="about__container">
         <div className="container">
           <div>
-            <h1>Advance Innovation For IT Solutions</h1>
+            <h1>Leading the Way in Cutting-Edge IT Solutions</h1>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-              eligendi molestiae ex harum, sed animi at aliquam quaerat odit
-              repudiandae dicta veniam, beatae aliquid, voluptatum nostrum saepe
-              doloribus excepturi. Facere!
+            At Belsoft Systems, We are at the forefront of 
+            innovative IT solutions. With a commitment to innovation, 
+            we pioneer advancements that define the future of technology. 
+            Our expert team ensures clients thrive in the digital era, 
+            setting new standards and empowering success in an 
+            ever-evolving IT landscape.
             </p>
             <div className="about__buttons">
               <button className="btn btn-primary">Get In Touch</button>

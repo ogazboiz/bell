@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 
 import HotNews from "./News__Hot";
 import LatestNews from "./News__Latest";

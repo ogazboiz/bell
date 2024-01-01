@@ -2,7 +2,7 @@ import { Component } from "react";
 import { BiBrain } from "react-icons/bi";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
