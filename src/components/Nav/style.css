@@ -44,7 +44,7 @@
 }
 .search__container {
   position: relative;
-  margin-left: 7rem;
+  margin-left: 10rem;
 }
 .search__button {
   position: relative;
@@ -84,6 +84,8 @@
   margin-top: -3.5rem;
   
 }
+
+
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 @media screen and (max-width: 1024px) {

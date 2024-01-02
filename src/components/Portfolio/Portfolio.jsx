@@ -1,6 +1,8 @@
 import { Component } from "react";
 import Work from "./Work_box";
 import "./style.css";
+import site1 from '../../assest/site1.png';
+import site2 from '../../assest/site2.png';
 class Portfolio extends Component {
   constructor() {
     super();
@@ -9,18 +11,16 @@ class Portfolio extends Component {
         img: "https://miro.medium.com/max/1400/0*MYd28f8vpLiE34ij.jpeg",
         title: "Modern UI/UX Dashboard Design",
         text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam asperiores"
+          "UI designs that gives you that unique feeling and the experience you will not forget in a hurry."
       },
       {
-        img:
-          "https://i.pinimg.com/originals/80/a1/17/80a1173fb50fe01bac507532338eb336.png",
-        title: "Food and Consumation Web App",
+        img: site1,
+        title: "Event Planning and Ticket Sales",
         text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam asperiores"
+          "Event planning and ticket sales site with login operations and ticket scan."
       },
       {
-        img:
-          "https://i.pinimg.com/originals/56/ae/76/56ae76f7bc1b3e0edc962cea1af7035f.png",
+        img: site2,
         title: "Future Social Media Web 3.0 d'App",
         text:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam asperiores"
@@ -40,7 +40,7 @@ class Portfolio extends Component {
               <>
                 <div className="portfolio__header">
                   <h1>See Our Works Or Portfolio</h1>
-                  <button className="btn btn-primary">More About</button>
+                  <button className="btn btn-primary">Get Yours Now</button>
                 </div>
                 <Work img={work.img} title={work.title} text={work.text} />
               </>

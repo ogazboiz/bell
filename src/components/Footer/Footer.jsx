@@ -2,6 +2,8 @@ import { Component } from "react";
 import { CgInstagram } from "react-icons/cg";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import logo from '../../assest/logo-Icon.png';
 import "./style.css";
 class Footer extends Component {
@@ -18,19 +20,29 @@ class Footer extends Component {
           </p>
           <ul className="footer__socials">
             <li>
-              <a href="#">
-                <AiFillFacebook />
-              </a>
+            <a href="https://www.facebook.com/profile.php?id=61554162863933" target="_blank">
+          <AiFillFacebook />
+        </a>
             </li>
             <li>
-              <a href="#">
-                <CgInstagram />
-              </a>
+            <a href="https://www.instagram.com/belsoftsystems/" target="_blank">
+          <CgInstagram />
+        </a>
             </li>
             <li>
-              <a href="#">
-                <AiFillTwitterSquare />
-              </a>
+            <a href="https://twitter.com/BELSOFTSYSTEMS" target="_blank">
+          <AiFillTwitterSquare />
+        </a>
+            </li>
+            <li>
+            <a href="https://www.linkedin.com/company/100826786/admin/feed/posts/?feedType=following" target="_blank">
+          <AiFillLinkedin />
+        </a>
+            </li>
+            <li>
+            <a href="https://github.com/BELSOFT-SYSTEMS" target="_blank">
+          <AiFillGithub />
+        </a>
             </li>
           </ul>
         </div>

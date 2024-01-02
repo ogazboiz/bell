@@ -53,7 +53,7 @@ class Intro extends Component {
             and unparalleled success. Experience the future of IT with 
             us—where challenges become triumphs.
             </p>
-            <button className="btn btn-primary">More About</button>
+            <button className="btn btn-primary">Learn More</button>
           </div>
         </div>
       </div>

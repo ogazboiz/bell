@@ -10,8 +10,8 @@ class ServicesComp extends Component {
     return (
       <div className="services__servicesComp">
         <div>
-          <h1>Our Servcices For Technology You Need</h1>
-          <button className="btn btn-primary">Load More</button>
+          <h1>Our Servcices To Meet Your Business Needs</h1>
+          <button className="btn btn-primary">See All Services</button>
         </div>
         <div>
           <div>
