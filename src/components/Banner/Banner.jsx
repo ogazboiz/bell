@@ -7,7 +7,7 @@ class Banner extends Component {
         <div className="container">
           <h1>
             Let's Boost Your Business
-            <br /> With The Latest Technology
+            <br /> With The Latest Technologies
           </h1>
           <button className="btn btn-primary">Get In Touch</button>
         </div>

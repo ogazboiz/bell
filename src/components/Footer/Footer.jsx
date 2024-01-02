@@ -2,17 +2,19 @@ import { Component } from "react";
 import { CgInstagram } from "react-icons/cg";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
+import logo from '../../assest/logo-Icon.png';
 import "./style.css";
 class Footer extends Component {
   render() {
     return (
       <footer id="contact" className="container footer__container">
         <div className="about">
-          <h3>LOGO</h3>
+        <img className="logo" src={logo} alt="Logo" />
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe
-            voluptatum repellat placeat aperiam. Molestiae consectetur molestias
-            magni laudantium doloremque!
+          Elevate your operations with our tailored software, 
+          designed to meet the evolving needs of the modern 
+          business landscape. Your success is our priority. 
+          Welcome to the future of technology.
           </p>
           <ul className="footer__socials">
             <li>
@@ -33,21 +35,41 @@ class Footer extends Component {
           </ul>
         </div>
         <div className="services">
-          <h3>Services</h3>
+          <h3>Our Services</h3>
           <ul>
             <li>
               <a href="#" className="text">
-                Cyber Security
+                Web Development
               </a>
             </li>
             <li>
               <a href="#" className="text">
-                IT COnsultant
+                Mobile App Development
               </a>
             </li>
             <li>
               <a href="#" className="text">
-                Strategy & Research
+                Mobile App Development
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text">
+                IT Consultant
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text">
+                Digital Marketing
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text">
+                Graphics Design
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text">
+                Product Design(UI/UX)
               </a>
             </li>
           </ul>
@@ -57,17 +79,18 @@ class Footer extends Component {
           <ul>
             <li>
               <address className="text">
-                Office: 232 California Road Imperial
+                Plot 208 44 Crescent Purple Jucip Und St Setraco/Gishiri, 
+                Gwarimpa, Abuja-Nigeria.
               </address>
             </li>
             <li>
               <a href="tel:+212698584458" className="text">
-                Tel : +212698584458
+                Tel : +2348068817499, +2347017097447.
               </a>
             </li>
             <li>
               <a href="mailto:lormail@gmail.com" className="text">
-                Email: lormail@gmail.com
+                Email: enquiry@belsoftsystems.com
               </a>
             </li>
           </ul>

@@ -2,14 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .container__nav > div:last-of-type {
   display: flex;
   align-items: center;
+  
 }
 .links {
   display: flex;
   gap: 1.7rem;
+  margin-left: 7rem;
 }
 .links a {
   font-size: 0.87rem;
@@ -41,6 +44,7 @@
 }
 .search__container {
   position: relative;
+  margin-left: 7rem;
 }
 .search__button {
   position: relative;
@@ -73,6 +77,14 @@
 .hide__button {
   display: none;
 }
+
+.logo-icon{
+  height: 300px;
+  margin-left: -6rem;
+  margin-top: -3.5rem;
+  
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 @media screen and (max-width: 1024px) {
   .hide__links {

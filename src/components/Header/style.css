@@ -20,6 +20,8 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 1rem;
+  
+  
 }
 .socials a {
   font-size: 1.3rem;

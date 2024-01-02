@@ -7,11 +7,11 @@ import "./style.css";
 class Nav extends Component {
   render() {
     return (
-      <nav>
+      <nav className="nav_container">
         <div className="container container__nav">
           <Logo />
           <Links />
-          <Quote />
+          <Quote className="quote" />
           <Search />
         </div>
       </nav>

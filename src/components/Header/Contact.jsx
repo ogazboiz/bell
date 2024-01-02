@@ -7,12 +7,12 @@ class Contact extends Component {
       <div className="contact">
         <a href="mailto:lormail@gmail.com">
           <AiFillMail />
-          <span>lormail@gmail.com</span>
+          <span>enquiry@belsoftsystems.com</span>
         </a>
 
         <a href="tel:+212698584458">
           <AiFillPhone />
-          <span>+212698584458</span>
+          <span>+2348068817499</span>
         </a>
       </div>
     );
