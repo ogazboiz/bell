@@ -7,9 +7,10 @@
   --color-light-gray: #fbece8;
   --linear-bg: linear-gradient(
     40deg,
-    rgba(65, 82, 205, 1) 0%,
-    rgba(203, 63, 183, 1) 35%,
-    rgba(250, 192, 120, 1) 100%
+    rgb(20, 141, 204) 0%,
+    rgb(146, 105, 203) 35%,
+    rgb(8, 46, 194) 70%,
+    rgb(0, 0, 65 ) 100%
   );
   --box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;

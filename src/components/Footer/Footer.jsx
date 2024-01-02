@@ -49,11 +49,6 @@ class Footer extends Component {
             </li>
             <li>
               <a href="#" className="text">
-                Mobile App Development
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text">
                 IT Consultant
               </a>
             </li>

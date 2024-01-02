@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.4rem 0;
+  padding: 1rem 0;
 }
 .container__header .contact {
   display: grid;
@@ -17,7 +17,7 @@
 }
 .socials {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   gap: 1rem;
   
@@ -26,7 +26,7 @@
 .socials a {
   font-size: 1.3rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
 @media screen and (max-width: 600px) {

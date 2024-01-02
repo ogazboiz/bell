@@ -2,12 +2,13 @@ import { Component } from "react";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import img from '../../assest/Software-Development.jpeg';
 import "./style.css";
 class About extends Component {
   constructor() {
     super();
     this.state = {
-      percentage: 75
+      percentage: 100
     };
   }
   render() {
@@ -35,8 +36,9 @@ class About extends Component {
           <div style={{ position: "relative" }}>
             <div className="about__image">
               <img
-                src="https://st4.depositphotos.com/17586788/i/600/depositphotos_247586928-stock-photo-a-successful-business-girl-in.jpg"
+                src={img}
                 alt="about"
+                height={350}
               />
             </div>
             <div className="about__progress">
@@ -47,10 +49,12 @@ class About extends Component {
                 />
               </div>
               <h4>
-                Business Growth
+                
+                Quality and Performance
                 <br />
-                <small>Level is high</small>
+                <br />
               </h4>
+              <small>Top quality at all times</small>
             </div>
           </div>
         </div>

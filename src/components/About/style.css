@@ -58,8 +58,13 @@
   left: -10%;
   box-shadow: var(--box-shadow);
 }
-.about__progress h4 {
+.about__progress h4{
   width: max-content;
+}
+.about__progress small{
+  width: max-content;
+  position: absolute;
+  margin: 6.5rem 6.5rem 5rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
