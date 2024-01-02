@@ -12,12 +12,11 @@ class Testimony extends Component {
         </div>
         <div className="testimony__comment">
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            pariatur totam error aliquid?
+            {this.props.text}
           </p>
           <p className="text">
-            <strong style={{ color: "black" }}>Dani Moreno / </strong>
-            Businessman
+            <strong style={{ color: "black" }}>{this.props.name} |</strong>
+            {this.props.occupation}
           </p>
         </div>
       </div>

@@ -26,7 +26,7 @@ class About extends Component {
             ever-evolving IT landscape.
             </p>
             <div className="about__buttons">
-              <button className="btn btn-primary">Get In Touch</button>
+              <button className="btn btn-primary">Get a Quote</button>
               <a href="#services">
                 <span>Our Services</span>
                 <AiOutlineArrowDown />

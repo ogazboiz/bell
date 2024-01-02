@@ -76,7 +76,7 @@ class News extends Component {
           })}
         </Swiper>
         <div className="news__latest">
-          <h1>Get The Latest News Here</h1>
+          <h1>Our Partners</h1>
           {this.lastestNews.map((feed) => {
             return (
               <LatestNews

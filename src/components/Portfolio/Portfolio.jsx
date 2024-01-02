@@ -21,9 +21,9 @@ class Portfolio extends Component {
       },
       {
         img: site2,
-        title: "Future Social Media Web 3.0 d'App",
+        title: "Personal Portfolio",
         text:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam asperiores"
+          "Personal Portfolio with your CV just one click away."
       }
     ];
   }
@@ -39,7 +39,7 @@ class Portfolio extends Component {
             return (
               <>
                 <div className="portfolio__header">
-                  <h1>See Our Works Or Portfolio</h1>
+                  <h1>See What We Have Been Up To</h1>
                   <button className="btn btn-primary">Get Yours Now</button>
                 </div>
                 <Work img={work.img} title={work.title} text={work.text} />

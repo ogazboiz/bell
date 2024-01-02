@@ -5,7 +5,10 @@ class Logo extends Component {
   render() {
     return (
       <div className="logo">
-        <img className="logo-icon" src={logo} alt="Logo" />
+        <a href="#">
+          <img className="logo-icon" src={logo} alt="Logo" />
+        </a>
+        
       </div>
     );
   }

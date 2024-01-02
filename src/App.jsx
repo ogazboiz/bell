@@ -2,7 +2,7 @@ import { Component } from "react";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import About from "./components/About/About";
-import Services from "./components/Services/Services";
+import Services__Short from "./components/Services/Services__Short";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonials from "./components/Testimonials/Testimonials";
 import News from "./components/News/News";
@@ -15,7 +15,7 @@ class App extends Component {
         <Header />
         <Nav />
         <About />
-        <Services />
+        <Services__Short />
         <Portfolio />
         <Testimonials />
         <News />
