@@ -9,7 +9,7 @@ class Links extends Component {
       "services",
       "portfolio",
       "testimony",
-      "news",
+      "meet the team",
       "contact"
     ];
     this.state = {

@@ -13,6 +13,7 @@ import { Pagination } from "swiper/modules";
 import HotNews from "./News__Hot";
 import LatestNews from "./News__Latest";
 import "./style.css";
+import img from '../../assest/ordesea2png.png';
 
 class News extends Component {
   constructor() {
@@ -20,21 +21,19 @@ class News extends Component {
     this.hotNews = [
       {
         title: "Great Technology Solution",
-        avatar:
-          "https://www.wallpaperup.com/uploads/wallpapers/2017/12/22/1173395/286d5a20933217acb4066811283dc734-700.jpg",
+        avatar: img,
         text:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic praesentium sunt incidunt quasi eos? Expedita temporibus dolorum nisi ratione harum quae suscipit, distinctio repellat in! Vero quisquam delectus nemo incidunt commodi perferendis repellendus quaerat, pariatur quidem itaque blanditiis magni.",
-        author: "Randi Saputra",
-        role: "IT Consultant"
+        author: "Ordesea Resources Ltd",
+        role: "Geological and Mining Company"
       },
       {
         title: "Great Technology Solution",
-        avatar:
-          "https://www.wallpaperup.com/uploads/wallpapers/2017/12/22/1173395/286d5a20933217acb4066811283dc734-700.jpg",
+        avatar: img,
         text:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic praesentium sunt incidunt quasi eos? Expedita temporibus dolorum nisi ratione harum quae suscipit, distinctio repellat in! Vero quisquam delectus nemo incidunt commodi perferendis repellendus quaerat, pariatur quidem itaque blanditiis magni.",
-        author: "Randi Saputra",
-        role: "IT Consultant"
+        author: "Ordesea Resources Ltd",
+        role: "Geological and Mining Company"
       }
     ];
     this.lastestNews = [
@@ -58,7 +57,7 @@ class News extends Component {
   }
   render() {
     return (
-      <section id="news" className="container news__container">
+      <section className="container news__container">
         <Swiper className="news__hot" pagination={true} modules={[Pagination]}>
           {this.hotNews.map((feed, index) => {
             return (
