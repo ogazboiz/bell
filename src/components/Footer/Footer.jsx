@@ -30,7 +30,7 @@ class Footer extends Component {
         </a>
             </li>
             <li>
-            <a href="https://twitter.com/BELSOFTSYSTEMS" target="_blank">
+            <a href="https://twitter.com/BELSOFT_SYSTEMS" target="_blank">
           <AiFillTwitterSquare />
         </a>
             </li>
