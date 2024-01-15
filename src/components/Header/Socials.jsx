@@ -12,7 +12,7 @@ class Socials extends Component {
         <a href="https://www.instagram.com/belsoftsystems/" target="_blank">
           <CgInstagram />
         </a>
-        <a href="https://twitter.com/BELSOFTSYSTEMS" target="_blank">
+        <a href="https://twitter.com/BELSOFT_SYSTEMS" target="_blank">
           <AiFillTwitterSquare />
         </a>
         <a href="https://www.facebook.com/profile.php?id=61554162863933" target="_blank">
