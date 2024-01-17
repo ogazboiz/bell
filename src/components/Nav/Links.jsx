@@ -45,7 +45,9 @@ class Links extends Component {
                 href={`#${link}`}
                 onClick={this.toggleVisibility}
               >
+                <pre>
                 {link}
+                </pre>
               </a>
             );
           })}
