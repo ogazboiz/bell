@@ -1,14 +1,16 @@
-import React from 'react'
-import pic from './test.jpeg'
-const Teammembercard = (name) => {
+import React from 'react';
+
+
+
+const Teammembercard = ({ name, role, email, image }) => {
   return (
     <div className='cardTeam'>
-        <img src={pic} alt='pic' className='teamMember'/>
-        <h3>Abayomi Aremo</h3>
-        <p>Frontend Developer</p>
-        <p><span className='teamMemberMail'>abayomiaremo0@gmail.com</span></p>
-           </div>
-  )
+      <img src={image} alt={name} className='teamMember' />
+      <h3>{name}</h3>
+      <p>{role}</p>
+      <p><span className='teamMemberMail'>{email}</span></p>
+    </div>
+  );
 }
 
-export default Teammembercard
+export default Teammembercard;
