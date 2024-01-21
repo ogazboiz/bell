@@ -1,60 +1,43 @@
-import { Component } from "react";
+import React, { useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
-class Links extends Component {
-  constructor() {
-    super();
-    this.links = [
-      "home",
-      "about",
-      "services",
-      "portfolio",
-      "testimony",
-      "meet the team",
-      "contact"
-    ];
-    this.state = {
-      linksVisibility: false
-    };
-    this.toggleVisibility = this.toggleVisibility.bind(this);
-  }
-  toggleVisibility() {
-    this.setState((lastState) => {
-      return {
-        linksVisibility: !this.state.linksVisibility
-      };
-    });
-  }
+import { Link, useLocation } from "react-router-dom";
 
-  render() {
-    return (
-      <>
-        <div className="links__button hide__button">
-          <button className="btn menu" onClick={this.toggleVisibility}>
-            <RiMenu3Line />
-          </button>
-        </div>
-        <div
-          className={`links ${
-            !this.state.linksVisibility ? "hide__links" : ""
-          }`}
-        >
-          {this.links.map((link, index) => {
-            return (
-              <a
-                key={index} 
-                className={!index ? "active" : ""}
-                href={`#${link.toLowerCase().replace(/\s/g, "-")}`} 
-                onClick={this.toggleVisibility}
-              >
-                <pre>
-                {link}
-                </pre>
-              </a>
-            );
-          })}
-        </div>
-      </>
-    );
-  }
-}
+const Links = () => {
+  const links = ["home", "about", "services", "meet the team", "contact"];
+  const [linksVisibility, setLinksVisibility] = useState(false);
+  const { pathname } = useLocation();
+
+  const toggleVisibility = () => {
+    setLinksVisibility(!linksVisibility);
+  };
+
+  return (
+    <>
+      <div className="links__button hide__button">
+        <button className="btn menu" onClick={toggleVisibility}>
+          <RiMenu3Line />
+        </button>
+      </div>
+      <div
+        className={`links ${!linksVisibility ? "hide__links" : ""}`}
+      >
+        {links.map((link, index) => {
+          const generatedLink = `/${link.toLowerCase().replace(/\s/g, "-")}`;
+          console.log("Generated Link:", generatedLink);
+          return (
+            <Link
+              key={index}
+              to={generatedLink}
+              className={pathname === generatedLink ? "active" : ""}
+              onClick={toggleVisibility}
+            >
+              {link}
+            </Link>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
 export default Links;
