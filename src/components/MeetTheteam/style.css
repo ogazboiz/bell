@@ -1,0 +1,5 @@
+.team-card-container{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
