@@ -12,7 +12,7 @@ function Home() {
         <Portfolio />
         <Testimonials />
         <News />
-        <Meettheteam />
+        
         <Banner />
     </div>
   );

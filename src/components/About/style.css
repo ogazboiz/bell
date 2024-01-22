@@ -77,6 +77,14 @@
     display: none;
   }
 }
+.about-belsoft{
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 0.1rem;
+  margin: 0 20px 0 12rem ;
+} 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
 @media screen and (max-width: 600px) {
   .about__container .container {
@@ -92,5 +100,9 @@
   }
   .about__buttons a {
     text-align: center;
+  }
+  .about-belsoft{
+    margin: 0 0 0 4rem ;
+    width: 80%;
   }
 }
