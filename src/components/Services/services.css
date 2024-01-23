@@ -24,3 +24,13 @@
 	display: flex;
     
 }
+@media screen and (max-width: 600px) {
+    .content-services-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .service{
+        width: 20rem;
+    }
+}
+
