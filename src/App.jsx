@@ -5,6 +5,7 @@ import Nav from "./components/Nav/Nav";
 import Home from "./Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Services from "./components/Services/Services";
 // import About from "./components/About/About";
 // import Services__Short from "./components/Services/Services__Short";
 // import Portfolio from "./components/Portfolio/Portfolio";
@@ -28,6 +29,7 @@ function App() {
             <Route path="/meet-the-team" element = {<Meettheteam />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element ={<Contact/>} />
+            <Route path="/services" element= {<Services />} />
           </Routes>
 
           <Footer />
