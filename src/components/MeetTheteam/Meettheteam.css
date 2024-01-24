@@ -22,7 +22,7 @@
 .TeamMemberCardContainer{
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 100%;
     flex-direction: column;
     align-self: center;
     margin: auto;
@@ -34,4 +34,10 @@
 .TeamMemberCardContainer div{
     display: flex;
     flex-wrap: wrap;
+}
+#meet-the-team{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
