@@ -12,8 +12,8 @@
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translateY(-50%);
-  height: 120%;
+  transform: translateY(-102%);
+  height: 60%;
   width: 40%;
   background: var(--linear-bg);
   z-index: -1;
