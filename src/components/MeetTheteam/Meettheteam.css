@@ -1,4 +1,31 @@
-.cardTeam{
+/* Meettheteam.css */
+
+.TeamMemberCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .team-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardTeam {
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -9,35 +36,33 @@
     align-items: center;
     justify-content: center;
     margin: 10px;
-}
-.teamMember{
+  }
+  
+  .teamMember {
     width: 70px;
     height: 70px;
     border-radius: 100%;
-}
-.teamMemberMail{
+  }
+  
+  .teamMemberMail {
     color: rgba(96, 89, 89, 0.8);
     font-size: 10px;
-}
-.TeamMemberCardContainer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: column;
-    align-self: center;
-    margin: auto;
-    justify-content: center;
-    align-items:center ;
-    /* background: red; */
-    margin-top: 20px;
-}
-.TeamMemberCardContainer div{
-    display: flex;
-    flex-wrap: wrap;
-}
-#meet-the-team{
+  }
+  
+  #meet-the-team {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .team-card-container {
+        /* width: 100%;
+      flex-direction: column;
+      justify-content: center; */
+      justify-content: center;
+    }
+  }
+  
