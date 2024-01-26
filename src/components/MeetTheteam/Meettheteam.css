@@ -28,6 +28,7 @@
   .cardTeam {
     width: 400px;
     height: 500px;
+    background: rgb(246, 245, 245);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -50,9 +51,11 @@
     font-style: italic;
   }
   .teamMember {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
     border-radius: 100%;
+    border: 6px solid rgb(161, 155, 155);
   }
   
   .teamMemberMail {
