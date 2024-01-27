@@ -83,5 +83,9 @@
     .content-container{
       width: 80%;
     }
+    .line{
+      display: none;
+      visibility: hidden;
+    }
      
   }
