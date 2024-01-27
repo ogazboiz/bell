@@ -73,6 +73,7 @@ const Contact = () => {
 					</li>
 				</ul>
 			</div>
+			<div className="line"></div>
 			<div className="content-container">
 				<h3>Contact Us </h3>
 				<p className="text">
