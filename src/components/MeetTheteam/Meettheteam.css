@@ -1,82 +1,81 @@
 /* Meettheteam.css */
 
 .TeamMemberCardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    flex-direction: column;
-    align-self: center;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .team-group {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team-group {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardTeam {
+  width: 400px;
+  height: 500px;
+  background: rgb(246, 245, 245);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.Blueline{
+  width: 40px;
+  border: 1px solid blue;
+}
+.cardText{
+  padding: 10px;
+}
+.role{
+  color: gray;
+  font-size: 15px;
+  font-style: italic;
+}
+.teamMember {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 6px solid rgb(217, 214, 214);
+}
+
+.teamMemberMail {
+  color: rgba(96, 89, 89, 0.8);
+  font-size: 10px;
+}
+
+#meet-the-team {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
   .team-card-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .cardTeam {
-    width: 400px;
-    height: 500px;
-    background: rgb(246, 245, 245);
-    border-radius: 10px;
-    display: flex;
+      /* width: 100%;
     flex-direction: column;
-    gap: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    align-items: center;
+    justify-content: center; */
     justify-content: center;
-    margin: 10px;
   }
-  .Blueline{
-    width: 40px;
-    border: 1px solid blue;
-  }
-  .cardText{
-    padding: 10px;
-  }
-  .role{
-    color: gray;
-    font-size: 15px;
-    font-style: italic;
-  }
-  .teamMember {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 100%;
-    border: 6px solid rgb(217, 214, 214);
-  }
-  
-  .teamMemberMail {
-    color: rgba(96, 89, 89, 0.8);
-    font-size: 10px;
-  }
-  
-  #meet-the-team {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Media Query for smaller screens */
-  @media (max-width: 768px) {
-    .team-card-container {
-        /* width: 100%;
-      flex-direction: column;
-      justify-content: center; */
-      justify-content: center;
-    }
-  }
-  
+}
