@@ -14,6 +14,7 @@ import Meettheteam from "./components/MeetTheteam/Meettheteam";
 // import News from "./components/News/News";
 // import Banner from "./components/Banner/Banner";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
+import './styles.css'
 
 import Footer from "./components/Footer/Footer";
 function App() {
